@@ -1,0 +1,31 @@
+header{
+  background-color: greenyellow;
+  text-align: center;
+  
+}
+p,
+h1{
+  margin: 1px;
+}
+
+.format{
+  border: 1px dashed black;
+  width: 30%;
+  text-align: center;
+}
+
+.yellow{
+  background: yellow;
+}
+
+.green{
+  background: green;
+}
+
+.purple{
+  background: purple;
+}
+
+.red{
+  background: red;
+}
