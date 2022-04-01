@@ -5,6 +5,7 @@
 header{
   background-color: darkgreen;
   text-align: center;
+  letter-spacing: 5px;
   height: 20vh;
   margin: 20px;
 }
@@ -14,39 +15,60 @@ header{
   padding: 20px;
   
 }
-li:first-child{
+.header-ul>li:first-child{
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: overline;
 }
-li:nth-of-type(3n){
+.header-ul>li:nth-of-type(3n){
   color: lawngreen;
   text-decoration-line:underline;
   text-decoration-style: dotted;
 
 }
-li:nth-of-type(4n){
+.header-ul>li:nth-of-type(4n){
   text-decoration: line-through red;
 }
-
-.format{
-  border: 5px dashed black;
-  width: 30%;
+.div{
+  width: 25%;
+  text-align: left;
+  height: 170px;
+}
+.div-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
   text-align: center;
+}
+.format1{
+  border: 5px dashed black;
+  
+}
+.format2{
+  border: 5px dotted black;
+  
+}
+.div>.div-title~p{
+  text-indent: 20px;
+  padding: 10px;
 }
 
 .yellow{
   background: yellow;
+  margin-left: 5%;
 }
 
 .green{
-  background: green;
+  background-color: darkolivegreen;
+  margin-left: 65%;
 }
 
 .purple{
   background: purple;
+  margin-left: 20%;
 }
 
 .red{
   background: red;
+  margin-left: 55%;
 }
